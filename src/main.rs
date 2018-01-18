@@ -5,6 +5,7 @@ mod structures;
 mod control;
 mod types;
 mod pm;
+mod functions;
 
 fn main() {
     // types::fundamental_data_types();
@@ -29,5 +30,10 @@ fn main() {
     // structures::strings();
     // structures::tuples();
     // structures::generics();
-    pm::pattern_matching();
+    // pm::pattern_matching();
+
+    // functions::functions();
+    // functions::methods();
+    // functions::closures();
+    functions::hof();
 }
