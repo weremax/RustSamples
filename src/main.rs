@@ -6,6 +6,8 @@ mod control;
 mod types;
 mod pm;
 mod functions;
+mod traits;
+mod dynamic;
 
 fn main() {
     // types::fundamental_data_types();
@@ -35,5 +37,10 @@ fn main() {
     // functions::functions();
     // functions::methods();
     // functions::closures();
-    functions::hof();
+    // functions::hof();
+
+    // traits::traits();
+    // traits::overloading();
+    // traits::dispatch();
+    dynamic::dynamic();
 }
