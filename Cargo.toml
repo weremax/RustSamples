@@ -1,5 +1,5 @@
 [package]
-name = "hello_world"
+name = "RustSamples"
 version = "0.1.0"
 authors = ["Christopher Blankenship <hardcode45@yahoo.com>"]
 
